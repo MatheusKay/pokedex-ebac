@@ -92,13 +92,19 @@ header img{
     --bs-btn-disabled-border-color: rgb(238, 65, 65);
 }
 
+.btn-visual{
+    display: flex;
+    justify-content: end;
+    flex-wrap: nowrap;
+    padding: 0 10px;
+}
+
 .veja-pokemon,
 .veja-pokemon-dois{
     padding: 0;
     width: 100px;
     height: 40px;
     font-size: 16px;
-    margin-left: 100px;
     background-color: red;
     border: 1px solid black;
 }
@@ -310,7 +316,7 @@ header img{
     .veja-pokemon-dois{
     display: block;
     margin: 10px 0 0 125px;
-    padding: 0;
+    padding: 3px;
     width: 65px;
     height: 40px;
     font-size: 12px;
