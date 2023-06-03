@@ -12,29 +12,23 @@
     <header>
         <div class="navbar navbar-expand-lg navbar-expand-mb">
             <div class="container">
-                <div class="row">
-                    <div class="col col-11">
-                        <h1><img src="./imagens/boneco-pokedex-removebg-preview.png" alt=""> BlackMon - Sua pokédex</h1>
-                        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                    </div>
-                    <div class="col col-1">
-                        <nav class="collapse navbar-collapse" id="menu">
-                            <ul class="nav navbar-nav nav-pills d-flex flex-nowrap ">
-                                <li class="nav-item p-2">
-                                    <a class="nav-link active" href="">Inicio</a>
-                                </li>
-                                <li class="nav-item p-2">
-                                    <a class="nav-link " href="">Pokédex</a>
-                                </li>
-                                <li class="nav-item p-2">
-                                    <a class="nav-link" href="">Novidades</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                </div>
+                <h1><img src="./imagens/boneco-pokedex-removebg-preview.png" alt=""> BlackMon - Sua pokédex</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu" >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills d-flex flex-nowrap ">
+                        <li class="nav-item p-2">
+                            <a class="nav-link active" href="">Inicio</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link " href="">Pokédex</a>
+                        </li>
+                        <li class="nav-item p-2">
+                            <a class="nav-link" href="">Novidades</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
@@ -44,31 +38,31 @@
                 <div class="col col-12">
                     <div id="carousel-pokedex" class="carousel carousel-fade slide" data-bs-ride="carousel">
                         <div class="carousel inner">    
-                            <div data-bs-interval="3000" class="carousel-item active">
+                            <div data-bs-interval="5000" class="carousel-item active">
                                 <img src="https://gameranx.com/wp-content/uploads/2016/07/Pokemon-GO-4K-Wallpaper.jpg" alt="">
                             </div>
-                            <div data-bs-interval="3000" class="carousel-item">
+                            <div data-bs-interval="5000" class="carousel-item">
                                 <img src="https://images.hdqwalls.com/wallpapers/hoenn-pokemon-go-4k-62.jpg" alt="">
                             </div>
-                            <div data-bs-interval="3000" class="carousel-item">
+                            <div data-bs-interval="5000" class="carousel-item">
                                 <img src="https://d1fs8ljxwyzba6.cloudfront.net/assets/editorial/2021/10/pokemon-unite-halloween.jpg" alt="">
                             </div>
-                            <div data-bs-interval="3000" class="carousel-item">
+                            <div data-bs-interval="5000" class="carousel-item">
                                 <img src="https://images2.alphacoders.com/116/thumb-1920-1160159.png" alt="">
                             </div>
                         </div>
-                    </div>
-                    <button data-bs-target="#carousel-pokedex" data-bs-slide="prev" class="carousel-control-prev" type="button">
-                        <span class="carousel-control-prev-icon"></span>
-                    </button>
-                    <button data-bs-target="#carousel-pokedex" data-bs-slide="next" class="carousel-control-next" type="button">
-                        <span class="carousel-control-next-icon"></span>
-                    </button>
-                    <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carousel-pokedex" class="active" data-bs-slide-to="0"></button>
-                        <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="1"></button>
-                        <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="2"></button>
-                        <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="3"></button>
+                        <button data-bs-target="#carousel-pokedex" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                            <span class="carousel-control-prev-icon"></span>
+                        </button>
+                        <button data-bs-target="#carousel-pokedex" data-bs-slide="next" class="carousel-control-next" type="button">
+                            <span class="carousel-control-next-icon"></span>
+                        </button>
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carousel-pokedex" class="active" data-bs-slide-to="0"></button>
+                            <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#carousel-pokedex" data-bs-slide-to="3"></button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -77,117 +71,896 @@
     <section>
         <div class="container">
             <div class="row">
-                <div class="col col-4">
+                <div class="conteudo">
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="/imagens/001.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0001</p>
+                                <h3>Bulbasaur</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-grass" href="">Grass</a>
+                                <a class="btn btn-poison" href="">Poison</a>
+                                <button class="btn btn-success veja-pokemon-dois" data-bs-toggle="modal" data-bs-target="#modal-bulbasaur">
+                                </button>
+                                <div class="modal" id="modal-bulbasaur" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Bulbasaur N° 0001
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="/imagens/001.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Há uma semente de planta em suas costas desde o dia em que este Pokémon nasceu. A semente cresce lentamente.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>70 cm</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>6,9 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Semente</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Crescer demais</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-poison btn-lg" href="">Poison</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                                <a class="btn btn-psychic btn-lg" href="">Psychic</a>
+                                                                <a class="btn btn-fly btn-lg" href="">Flying</a>
+                                                                <a class="btn btn-ice btn-lg" href="">Ice</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>                        
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="/imagens/002.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0002</p>
+                                <h3>Ivysaur</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-grass" href="">Grass</a>
+                                <a class="btn btn-poison" href="">Poison</a>
+                                <button class="btn btn-success veja-pokemon-dois" data-bs-toggle="modal" data-bs-target="#modal-ivysaur">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-ivysaur" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Ivysaur N° 0002
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="/imagens/002.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Quando o bulbo nas costas cresce, parece perder a capacidade de ficar de pé nas patas traseiras.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>1.0 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>13.0 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Semente</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Crescer demais</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-poison btn-lg" href="">Poison</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                                <a class="btn btn-psychic btn-lg" href="">Psychic</a>
+                                                                <a class="btn btn-fly btn-lg" href="">Flying</a>
+                                                                <a class="btn btn-ice btn-lg" href="">Ice</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="/imagens/003.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0003</p>
+                                <h3>Venusaur</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-grass" href="">Grass</a>
+                                <a class="btn btn-poison" href="">Poison</a>
+                                <button class="btn btn-success veja-pokemon-dois" data-bs-toggle="modal" data-bs-target="#modal-venusaur">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-venusaur" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Venusaur N° 0003
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="/imagens/003.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar a luz do sol.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>2.0 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>100.0 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Semente</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Crescer demais</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-poison btn-lg" href="">Poison</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                                <a class="btn btn-psychic btn-lg" href="">Psychic</a>
+                                                                <a class="btn btn-fly btn-lg" href="">Flying</a>
+                                                                <a class="btn btn-ice btn-lg" href="">Ice</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="imagens/004.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0004</p>
+                                <h3>Charmander</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-fire" href="">Fire</a>
+                                <button class="btn btn-success veja-pokemon" data-bs-toggle="modal" data-bs-target="#modal-charmander">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-charmander" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Charmander N° 0004
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/004.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Tem preferência por coisas quentes. Quando chove, diz-se que o vapor jorra da ponta de sua cauda.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>60 cm</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>8.5 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Lagarto</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Chama</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                                <a class="btn btn-ground btn-lg" href="">Ground</a>
+                                                                <a class="btn btn-rock btn-lg" href="">Rock</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="/imagens/005.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0005</p>
+                                <h3>Charmeleon</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-fire" href="">Fire</a>
+                                <button class="btn btn-success veja-pokemon" data-bs-toggle="modal" data-bs-target="#modal-charmeleon">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-charmeleon" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Charmeleon N° 0005
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/005.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Tem uma natureza bárbara. Em batalha, ele chicoteia sua cauda de fogo e corta com garras afiadas.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>1.1 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>19.0 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Lagarto</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Chama</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                                <a class="btn btn-ground btn-lg" href="">Ground</a>
+                                                                <a class="btn btn-rock btn-lg" href="">Rock</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="imagens/006.png">
+                            <div class="card-body">
+                                <p>N° 0006</p>
+                                <h3>Charizard</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-fire" href="">Fire</a>
+                                <a class="btn btn-fly" href="">Flying</a>
+                                <button class="btn btn-success veja-pokemon-dois" data-bs-toggle="modal" data-bs-target="#modal-charizard">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-charizard" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Charizard N° 0006
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/006.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Ele cospe fogo que é quente o suficiente para derreter pedras. Pode causar incêndios florestais soprando chamas.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>1.7 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>90.5 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Chama</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Chama</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-fire btn-lg" href="">Fire</a>
+                                                                <a class="btn btn-fly btn-lg" href="">Flying</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                                <a class="btn btn-eletric btn-lg" href="">Eletric</a>
+                                                                <a class="btn btn-rock btn-lg" href="">Rock</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="imagens/007.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0007</p>
+                                <h3>Squirtle</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-water" href="">Water</a>
+                                <button class="btn btn-success veja-pokemon" data-bs-toggle="modal" data-bs-target="#modal-squirtle">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-squirtle" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Squirtle N° 0007
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/007.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Quando retrai seu longo pescoço em sua concha, esguicha água com força vigorosa.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>50 cm</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>0.9 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Tartaruga</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Torrente</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-eletric btn-lg" href="">Eletric</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3">
+                        <article class="card">
+                            <img src="imagens/008.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0008</p>
+                                <h3>Wartortle</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-water" href="">Water</a>
+                                <button class="btn btn-success veja-pokemon" data-bs-toggle="modal" data-bs-target="#modal-wartortle">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-wartortle" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Wartortle N° 0008
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/008.png" alt=""> 
+                                                    <p class="descricao">
+                                                        É reconhecido como um símbolo de longevidade. Se sua casca tiver algas, aquele Wartortle é muito velho.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>1.0 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>22.5 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Tartaruga</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Torrente</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-eletric btn-lg" href="">Eletric</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="col col-mb-3 ultima">
                     <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/001.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0001</p>
-                            <h3>Bulbasaur</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-grass" href="">Grass</a>
-                            <a class="btn btn-poison" href="">Poison</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/002.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0002</p>
-                            <h3>Ivysaur</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-grass" href="">Grass</a>
-                            <a class="btn btn-poison" href="">Poison</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/003.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0003</p>
-                            <h3>Venusaur</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-grass" href="">Grass</a>
-                            <a class="btn btn-poison" href="">Poison</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/004.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0004</p>
-                            <h3>Charmander</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-fire" href="">Fire</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/005.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0005</p>
-                            <h3>Charmeleon</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-fire" href="">Fire</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/006.png">
-                        <div class="card-body">
-                            <p>N° 0006</p>
-                            <h3>Charizard</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-fire" href="">Fire</a>
-                            <a class="btn btn-fly" href="">Flying</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/007.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0007</p>
-                            <h3>Squirtle</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-water" href="">Water</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/008.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0008</p>
-                            <h3>Wartortle</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-water" href="">Water</a>
-                        </div>
-                    </article>
-                </div>
-                <div class="col col-4">
-                    <article class="card">
-                        <img src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/009.png" alt="">
-                        <div class="card-body">
-                            <p>N° 0009</p>
-                            <h3>Blastoise</h3>
-                        </div>
-                        <div class="card-footer">
-                            <a class="btn btn-water" href="">Water</a>
-                        </div>
-                    </article>
+                            <img src="imagens/009.png" alt="">
+                            <div class="card-body">
+                                <p>N° 0009</p>
+                                <h3>Blastoise</h3>
+                            </div>
+                            <div class="card-footer">
+                                <a class="btn btn-water" href="">Water</a>
+                                <button class="btn btn-success veja-pokemon" data-bs-toggle="modal" data-bs-target="#modal-blastoise">
+                                    Visualizar
+                                </button>
+                                <div class="modal" id="modal-blastoise" data-bs-backdrop="static">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5>
+                                                    Blastoise N° 0009
+                                                </h5>
+                                                <button data-bs-dismiss="modal" type="button" class="btn-close">
+                            
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p>
+                                                    <img src="imagens/009.png" alt=""> 
+                                                    <p class="descricao">
+                                                        Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios. Em uma pitada, ele se retirará para dentro de sua casca.
+                                                    </p>
+                                                </p>
+                                            </div>
+                                            <div class="status">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Altura:
+                                                                    <p>1.6 m</p>
+                                                                </span>
+                                                                <span>
+                                                                    Peso:
+                                                                    <p>85.5 kg</p>
+                                                                </span>
+                                                                <span>
+                                                                    Gênero:
+                                                                    <p>
+                                                                        Feminino <br>
+                                                                        Masculino
+                                                                    </p>
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-6">
+                                                                <span>
+                                                                    Categoria:
+                                                                    <p>Marisco</p>
+                                                                </span>
+                                                                <span>
+                                                                    Habilidades:
+                                                                    <p>Torrente</p>
+                                                                </span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                            <div class="info">
+                                                <article>
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Tipo:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-water btn-lg" href="">Water</a>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <span>
+                                                                    Fraquezas:
+                                                                </span>
+                                                            </div>
+                                                            <div class="col col-12">
+                                                                <a class="btn btn-grass btn-lg" href="">Grass</a>
+                                                                <a class="btn btn-eletric btn-lg" href="">Eletric</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </article>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
                 </div>
             </div>
         </div>
